@@ -1,0 +1,73 @@
+[02-May-2019 14:52:01 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 29
+[03-May-2019 23:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_catergory() in /app/public/wp-content/themes/fictional-university-theme/archive.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 8
+[03-May-2019 23:11:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_archive_descritption() in /app/public/wp-content/themes/fictional-university-theme/archive.php:12
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/archive.php on line 12
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:02:36 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[04-May-2019 00:07:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/fictional-university-theme/front-page.php:53
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 53
+[04-May-2019 00:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/fictional-university-theme/front-page.php:53
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 53
+[08-May-2019 16:10:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_post_type(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/post.php:1343
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/functions.php(24): register_post_type()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(505): do_action('init')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-includes/post.php on line 1343
+[08-May-2019 16:11:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_post_type(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/post.php:1343
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/functions.php(24): register_post_type()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(505): do_action('init')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/post.php on line 1343
+[08-May-2019 16:13:55 UTC] PHP Warning:  require(/app/public/wp-includes/class-wp-paused-extensions-storage.php): failed to open stream: No such file or directory in /app/public/wp-settings.php on line 20
+[08-May-2019 16:13:55 UTC] PHP Fatal error:  require(): Failed opening required '/app/public/wp-includes/class-wp-paused-extensions-storage.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-settings.php on line 20
+[08-May-2019 16:13:55 UTC] PHP Warning:  require(/app/public/wp-includes/class-wp-paused-extensions-storage.php): failed to open stream: No such file or directory in /app/public/wp-settings.php on line 20
+[08-May-2019 16:13:55 UTC] PHP Fatal error:  require(): Failed opening required '/app/public/wp-includes/class-wp-paused-extensions-storage.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-settings.php on line 20
+[08-May-2019 16:28:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[08-May-2019 16:28:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[08-May-2019 16:28:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[08-May-2019 22:28:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 124
+[08-May-2019 22:28:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 124
+[08-May-2019 22:28:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 124
+[08-May-2019 22:42:44 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 37
